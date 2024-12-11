@@ -1,0 +1,14 @@
+<html>
+<head><title>Redemption Rate UI with Auto-Compounding</title></head>
+<body>
+<h1>Redemption Rate Dashboard</h1>
+<nav>
+  <a href="{{ url_for('index') }}">Home</a> |
+  <a href="{{ url_for('forecast') }}">Forecast</a> |
+  <a href="{{ url_for('auto_compound_route') }}">Simulate Auto-Compound Epoch</a>
+</nav>
+<hr>
+{% block content %}{% endblock %}
+</body>
+</html>
+

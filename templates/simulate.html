@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simulation Results</title>
+</head>
+<body>
+    <h1>Simulation Results</h1>
+    <p>Simulated staking {{ X }} tokens each epoch.</p>
+    <img src="{{ plot_data }}" alt="Simulation Plot" style="max-width:600px;"/>
+
+    <p>RR values simulated:</p>
+    <ul>
+    {% for rr_val in sim_rr %}
+        <li>{{ rr_val }}</li>
+    {% endfor %}
+    </ul>
+
+    <p><a href="{{ url_for('index') }}">Back to Home</a></p>
+</body>
+</html>
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redemption Rate Dashboard</title>
+</head>
+<body>
+    <h1>Redemption Rate Dashboard</h1>
+    <p>Current RR: {{ rr }}</p>
+    <p>Phase: {{ phase }}</p>
+    <p>Guidance: {{ guidance }}</p>
+
+    <img src="{{ plot_data }}" alt="RR Plot" style="max-width:600px;"/>
+
+    <form action="{{ url_for('stake') }}" method="post">
+        <label>Amount to Stake:</label>
+        <input type="text" name="tokens">
+        <input type="submit" value="Stake">
+    </form>
+
+    <hr>
+    <h2>Simulate Staking Scenario</h2>
+    <form action="{{ url_for('simulate') }}" method="post">
+        <label>Stake Each Epoch:</label>
+        <input type="text" name="simulate_tokens">
+        <input type="submit" value="Simulate">
+    </form>
+
+    <p><a href="{{ url_for('forecast') }}">Forecast</a></p>
+    <p><a href="{{ url_for('auto_compound_route') }}">Simulate Auto-Compound Epoch</a></p>
+    <p><a href="{{ url_for('show_logs') }}">View Logs</a></p>
+</body>
+</html>
+
