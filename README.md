@@ -10,6 +10,8 @@
 
 
 
+![diagram-export-12-9-2024-11_07_53-AM](https://github.com/user-attachments/assets/75433e8c-8ea2-4b49-bd7a-06c316d557a3)
+
 
 
 https://docs.google.com/document/d/1RcJZGLa0ZpeWplKMrtWFSr8X5xNl86b_/edit?usp=sharing&ouid=102246369981228451498&rtpof=true&sd=true
