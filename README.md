@@ -11,8 +11,5 @@
 
 
 
-![diagram-export-12-12-2024-11_26_16-AM](https://github.com/user-attachments/assets/9d6baa5c-7d51-4b91-a51c-c610beba0cb0)
-
-
 
 https://docs.google.com/document/d/1RcJZGLa0ZpeWplKMrtWFSr8X5xNl86b_/edit?usp=sharing&ouid=102246369981228451498&rtpof=true&sd=true
