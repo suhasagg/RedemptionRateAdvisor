@@ -14,4 +14,9 @@
 
 
 
+
+![diagram-export-12-11-2024-12_13_28-PM](https://github.com/user-attachments/assets/9e68f8f9-c778-4c5b-9a91-c3cadf8d2436)
+
+
+
 https://docs.google.com/document/d/1RcJZGLa0ZpeWplKMrtWFSr8X5xNl86b_/edit?usp=sharing&ouid=102246369981228451498&rtpof=true&sd=true
